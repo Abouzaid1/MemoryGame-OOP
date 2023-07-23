@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="Flavour-1-bg">
+    <section id="login" class="vh-100 m-auto preventClick text-center d-flex backDrop  position-absolute top-0 w-100">
+        <div class="w-50 h-25 bg-white text-center rounded-pill  m-auto align-items-center ">
+            <h3 class="mt-5">Hello!  Write your name</h3>
+            <div class="input-container mt-5 w-75 m-auto ">
+                <input placeholder="Enter text" class="input-field" type="text" id="username">
+                <label for="input-field" class="input-label">Enter text</label>
+                <span class="input-highlight"></span>
+              </div>
+              <button id="goBtn" class="my-4">
+                GO
+              </button>
+        </div>
+    </section>
+    <section id="winPage" class="vh-100 m-auto preventClick text-center d-flex backDrop  position-absolute top-0 w-100 d-none">
+      <div class="w-50 h-25 bg-white text-center rounded-pill  m-auto align-items-center ">
+          <h3 class="mt-5">Winner Winner Chicken Dinner LOL</h3>
+            <h4>Go one more time</h4>
+            <button id="reloadBtn" class="my-4">
+              GO
+            </button>
+      </div>
+  </section>
+    <section class="d-none vh-100  position-absolute top-0 w-100 preventClick" id="preventClick">
+
+    </section>
+    <section class="  p-5 ">
+        <div class="container h-100">
+            <nav class="p-3 px-5 d-flex row justify-content-around  Flavour-2-bg" style="border-radius: 40px;">
+                <h4 class="Flavour-5 col-md-5">Hello : <span class="fw-light "id="name">Abouzaid</span></h4>
+                <h4 class="Flavour-5 col-md-3">Best Score : <span class="fw-light " id="bestScore">0</span></h4>
+                
+                <h4 class="Flavour-5 col-md-3">Wrong tries : <span class="fw-light " id="wrongTry">0</span></h4>
+            </nav>
+            
+
+              <div class="d-flex flex-wrap p-1 justify-content-center " id="container"> 
+                  <!-- <div class="card">
+                      <div class="content">
+                        <div class="front">
+                          
+                        </div>
+                        <div class="back">
+                          H
+                        </div>
+                      </div>
+                    </div>
+                  -->                          
+              </div>
+           
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
