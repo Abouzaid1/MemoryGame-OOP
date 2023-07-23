@@ -9,7 +9,7 @@ Memory Mastermind follows the classic rules of a memory card game. The main obje
 
 How to Play:
 
-Launch the game and choose your desired difficulty level.
-Click on any two cards to flip them over.
-Memorize the card positions and try to find matching pairs.
-Keep flipping cards and making matches until all pairs are found.
+1 - Launch the game and choose your desired difficulty level.
+2 - Click on any two cards to flip them over.
+3 - Memorize the card positions and try to find matching pairs.
+4 - Keep flipping cards and making matches until all pairs are found.
